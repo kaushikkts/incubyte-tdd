@@ -11,8 +11,10 @@ const addStringNumbers = (stringNums) => {
         // at character 3 which is (2) as it is 0 indexed
         delimiter = stringNums.substring(2, delimiterEnd);
         stringNums = stringNums.substring(delimiterEnd + 1);
-
+        console.log(delimiter, stringNums);
     }
+
+
 
 }
 
